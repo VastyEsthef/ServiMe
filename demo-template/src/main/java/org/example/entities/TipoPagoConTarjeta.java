@@ -7,14 +7,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tipoPromocion")
-public class TipoPromocion {
+@Table(name = "tipoPagoConTarjeta")
+public class TipoPagoConTarjeta {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String nombre;
 
-	
 	public int getId() {
 		return id;
 	}
