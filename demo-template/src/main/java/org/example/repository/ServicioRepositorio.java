@@ -25,7 +25,7 @@ public class ServicioRepositorio implements Serializable{
 		servicios=query.getResultList();
 		
 		return servicios;
-		//prueba
+		//pr
 	}
 
 }
